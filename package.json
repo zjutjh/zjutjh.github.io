@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint"
   },
   "dependencies": {
     "nuxt": "^3.14.1592",
@@ -16,7 +17,9 @@
   },
   "packageManager": "pnpm@8.6.8+sha1.8cdbb177109be4e1c498126fa24a9dc811e80eea",
   "devDependencies": {
+    "@zjutjh/eslint-config": "^0.2.0",
     "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15"
   }
