@@ -1,0 +1,24 @@
+blogs: 
+  - title: "竹林里有冰的博客"
+    url: "https://zhul.in"
+    feed: "https://zhul.in/rss.xml"
+  
+  - title: "J10c's site"
+    url: "https://site.j10ccc.xyz/"
+    feed: "https://site.j10ccc.xyz/zh-cn/blog/rss.xml"
+  
+  - title: "派大星的石头屋"
+    url: "https://blog.cnpatrickstar.com/"
+    feed: "https://blog.cnpatrickstar.com/index.xml"
+  
+  - title: "Node Sans Blog"
+    url: "https://blog.node189.top/"
+    feed: "https://blog.node189.top/rss.xml"
+
+  - title: "i1nfo"
+    url: "https://blog.i1nfo.com/"
+    feed: "https://blog.i1nfo.com/atom.xml"
+
+  - title: "Finley's Blog"
+    url: "https://www.f1nley.xyz/"
+    feed: "https://www.f1nley.xyz/blog/rss.xml"
