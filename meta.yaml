@@ -26,3 +26,7 @@ blogs:
   - title: "Mulberror's Blog"
     url: "https://blog.mulbx.top/"
     feed: "https://blog.mulbx.top/index.xml"
+
+  - title: "Tiancy's Blog"
+    url: "https://blog.tiancy.cn/"
+    feed: "https://blog.tiancy.cn/atom.xml"
