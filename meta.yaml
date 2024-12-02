@@ -30,3 +30,7 @@ blogs:
   - title: "Tiancy's Blog"
     url: "https://blog.tiancy.cn/"
     feed: "https://blog.tiancy.cn/atom.xml"
+
+  - title: "Hygge's Blog"
+    url: "https://ljw030710.github.io/"
+    feed: "https://ljw030710.github.io/atom.xml"
