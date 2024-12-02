@@ -22,3 +22,7 @@ blogs:
   - title: "Finley's Blog"
     url: "https://www.f1nley.xyz/"
     feed: "https://www.f1nley.xyz/blog/rss.xml"
+
+  - title: "Tiancy's Blog"
+    url: "https://blog.tiancy.cn/"
+    feed: "https://blog.tiancy.cn/atom.xml"
