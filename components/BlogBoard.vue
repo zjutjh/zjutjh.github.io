@@ -7,7 +7,7 @@ import boardInfo from "../assets/opml.json";
     <div class="text-xl text-gray-800 border-b py-2 mx-4 mb-[-2px]">
       博客列表
     </div>
-    <div v-for="board in boardInfo" :key="board.link" class="blog-item m-4">
+    <div v-for="board in boardInfo" :key="board.link" class="blog-item m-4 truncate">
       <a :href="board.link" target="_blank">
         <div
           class="text-lg"
