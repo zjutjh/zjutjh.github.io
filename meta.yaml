@@ -22,3 +22,7 @@ blogs:
   - title: "Finley's Blog"
     url: "https://www.f1nley.xyz/"
     feed: "https://www.f1nley.xyz/blog/rss.xml"
+
+  - title: "Mulberror's Blog"
+    url: "https://blog.mulbx.top/"
+    feed: "https://blog.mulbx.top/index.xml"
