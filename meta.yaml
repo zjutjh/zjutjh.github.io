@@ -42,3 +42,7 @@ blogs:
   - title: "T-ON-Y的博客"
     url: "https://tonywu.top/"
     feed: "https://tonywu.top/atom.xml"
+
+  - title: "离谱的博客"
+    url: "https://blog.liip.fun/"
+    feed: "https://blog.liip.fun/rss.xml"
