@@ -51,6 +51,10 @@ blogs:
     url: "https://blog.sugarmgp.icu/"
     feed: "https://blog.sugarmgp.icu/rss2.xml"
 
+  - title: "浅浅子の小屋"
+    url: "https://blog.qianqianzyk.top/"
+    feed: "https://blog.qianqianzyk.top/rss.xml"
+
   - title: "MangoGovo's blog"
     url: "https://blog.mggo.xyz/"
     feed: "https://blog.mggo.xyz/rss2.xml"
