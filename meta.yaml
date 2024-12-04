@@ -50,3 +50,6 @@ blogs:
   - title: "白糖的记事本"
     url: "https://blog.sugarmgp.icu/"
     feed: "https://blog.sugarmgp.icu/rss2.xml"
+  - title: "MangoGovo's blog"
+    url: "https://blog.mggo.xyz/"
+    feed: "https://blog.mggo.xyz/rss2.xml"
