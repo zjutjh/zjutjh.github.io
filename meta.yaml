@@ -50,3 +50,7 @@ blogs:
   - title: "白糖的记事本"
     url: "https://blog.sugarmgp.icu/"
     feed: "https://blog.sugarmgp.icu/rss2.xml"
+
+  - title: "浅浅子の小屋"
+    url: "https://blog.qianqianzyk.top/"
+    feed: "https://blog.qianqianzyk.top/rss.xml"
