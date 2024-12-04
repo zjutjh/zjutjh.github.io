@@ -12,6 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "fast-xml-parser": "^4.5.0",
+    "feedparser": "^2.2.10",
     "js-yaml": "^4.1.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
   }
 }
