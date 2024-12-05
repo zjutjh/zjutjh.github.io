@@ -58,3 +58,7 @@ blogs:
   - title: "MangoGovo's blog"
     url: "https://blog.mggo.xyz/"
     feed: "https://blog.mggo.xyz/rss2.xml"
+
+  - title: "望舒的尘歌壶"
+    url: "https://blog.phlin.top/"
+    feed: "https://blog.phlin.top/rss2.xml"
