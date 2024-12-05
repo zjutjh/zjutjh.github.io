@@ -1,42 +1,12 @@
 [
     {
-        "title": "竹林里有冰的博客",
-        "link": "https://zhul.in",
-        "alive": true
-    },
-    {
         "title": "J10c's site",
         "link": "https://site.j10ccc.xyz/",
         "alive": true
     },
     {
-        "title": "派大星的石头屋",
-        "link": "https://blog.cnpatrickstar.com/",
-        "alive": true
-    },
-    {
-        "title": "Node Sans Blog",
-        "link": "https://blog.node189.top/",
-        "alive": true
-    },
-    {
-        "title": "i1nfo",
-        "link": "https://blog.i1nfo.com/",
-        "alive": true
-    },
-    {
-        "title": "Finley's Blog",
-        "link": "https://www.f1nley.xyz/",
-        "alive": true
-    },
-    {
-        "title": "Mulberror's Blog",
-        "link": "https://blog.mulbx.top/",
-        "alive": true
-    },
-    {
-        "title": "Tiancy's Blog",
-        "link": "https://blog.tiancy.cn/",
-        "alive": true
+        "title": "竹林里有冰的博客",
+        "link": "https://zhul.in",
+        "alive": false
     }
 ]
