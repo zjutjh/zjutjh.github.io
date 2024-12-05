@@ -10,12 +10,19 @@ const monthLimit = parseInt(process.env.MONTH_LIMIT ?? "4");
  * @param {string} url 博客 URL
  * */
 async function getBlog(url) {
-  const res = await fetch(url);
-  const text = await res.text();
-  return text;
+  try {
+
+    const res = await fetch(url);
+    const text = await res.text();
+    return text;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  } catch (_) {
+    console.error("获取失败", title, url);
+    return null;
+  }
 }
 
-const { blogs } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
+const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
 
 (async () => {
   const parser = new XMLParser({
@@ -25,44 +32,46 @@ const { blogs } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
   const opml = [];
   const data = [];
 
-  for await (const blog of blogs) {
-    const { feed, title, url } = blog;
-    try {
-      const text = await getBlog(feed);
-      const json = parser.parse(text);
-      const type = json.rss ? "rss" : "feed";
-      opml.push({
-        title,
-        link: url,
-        alive: true
-      });
-      if (type === "rss") {
-        data.push(...json.rss.channel.item.map((item) => ({
-          title: item.title,
-          date: new Date(item.pubDate),
-          // date: format(new Date(item.pubDate), "yyyyMMdd"),
-          url: item.link,
-          siteName: title,
-          siteUrl: url
-        })));
-      } else {
-        data.push(...json.feed.entry.map((item) => ({
-          title: item.title,
-          date: new Date(item.published),
-          // date: format(new Date(item.published), "yyyyMMdd"),
-          url: item.link["_href"],
-          siteName: title,
-          siteUrl: url
-        })));
-      }
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    } catch (_error) {
-      console.error("获取失败", title, url);
+  const blogs = await Promise.all(blogMetas.map(async (blog) => ({
+    ...blog,
+    text: await getBlog(blog.feed)
+  })));
+
+  for (const blog of blogs) {
+    const { title, url, text } = blog;
+    if (!text) {
       opml.push({
         title,
         link: url,
         alive: false
       });
+      continue;
+    }
+    const json = parser.parse(text);
+    const type = json.rss ? "rss" : "feed";
+    opml.push({
+      title,
+      link: url,
+      alive: true
+    });
+    if (type === "rss") {
+      data.push(...json.rss.channel.item.map((item) => ({
+        title: item.title,
+        date: new Date(item.pubDate),
+        // date: format(new Date(item.pubDate), "yyyyMMdd"),
+        url: item.link,
+        siteName: title,
+        siteUrl: url
+      })));
+    } else {
+      data.push(...json.feed.entry.map((item) => ({
+        title: item.title,
+        date: new Date(item.published),
+        // date: format(new Date(item.published), "yyyyMMdd"),
+        url: item.link["_href"],
+        siteName: title,
+        siteUrl: url
+      })));
     }
   }
 
