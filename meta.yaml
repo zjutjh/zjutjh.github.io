@@ -62,3 +62,7 @@ blogs:
   - title: "望舒的尘歌壶"
     url: "https://blog.phlin.top/"
     feed: "https://blog.phlin.top/rss2.xml"
+
+  - title: "青鸟のBlog"
+    url: "https://blog.bluebird.icu/"
+    feed: "https://blog.bluebird.icu/posts/index.xml"
