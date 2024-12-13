@@ -5,6 +5,9 @@
       src="/img/logo.webp"
       alt="精弘网络"
     >
+    <div class="hidden">
+      浙江工业大学精弘网络技术团队
+    </div>
     <a
       href="https://github.com/zjutjh"
       target="_blank"
