@@ -70,3 +70,7 @@ blogs:
   - title: "惜寞的无人小间"
     url: "https://www.lonesome.cn/"
     feed: "https://www.lonesome.cn/atom.xml"
+
+  - title: "树下集熵"
+    url: "https://www.entropy-tree.top/"
+    feed: "https://www.entropy-tree.top/atom.xml"
