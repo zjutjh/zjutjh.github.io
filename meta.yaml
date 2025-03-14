@@ -60,8 +60,8 @@ blogs:
     feed: "https://blog.mggo.xyz/rss2.xml"
 
   - title: "望舒的尘歌壶"
-    url: "https://blog.phlin.top/"
-    feed: "https://blog.phlin.top/rss2.xml"
+    url: "https://blog.phlin.cn/"
+    feed: "https://blog.phlin.cn/rss2.xml"
 
   - title: "青鸟のBlog"
     url: "https://blog.bluebird.icu/"
