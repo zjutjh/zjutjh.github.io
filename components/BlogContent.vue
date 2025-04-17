@@ -21,16 +21,16 @@ const titleNeedToShow = (articleData: Array<any>, index: number) => {
 </script>
 
 <template>
-  <div class="m-4 p-4">
+  <div class="mx-8 my-4">
     <div v-for="(article, index) in articleData" :key="article.url">
-      <div
+      <h2
         v-if="titleNeedToShow(articleData, index)"
-        class="text-2xl text-gray-800"
+        class="text-xl text-gray-800 pt-2"
       >
         {{ toMonthTitle(article.date) }}
-      </div>
-      <div class="article-item flex my-2 text-lg">
-        <div class="text-gray-400 mr-2 my-auto">
+      </h2>
+      <div class="article-item flex my-2 text-base">
+        <div class="text-gray-400 mr-3 my-auto">
           {{ toArticleDate(article.date) }}
         </div>
         <a

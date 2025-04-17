@@ -30,3 +30,47 @@ blogs:
   - title: "Tiancy's Blog"
     url: "https://blog.tiancy.cn/"
     feed: "https://blog.tiancy.cn/atom.xml"
+
+  - title: "Hygge's Blog"
+    url: "https://ljw030710.github.io/"
+    feed: "https://ljw030710.github.io/atom.xml"
+
+  - title: "消失在彩霞里的博客"
+    url: "https://blog.aiyin.club/"
+    feed: "https://blog.aiyin.club/index.xml"
+    
+  - title: "T-ON-Y的博客"
+    url: "https://tonywu.top/"
+    feed: "https://tonywu.top/atom.xml"
+
+  - title: "离谱的博客"
+    url: "https://blog.liip.fun/"
+    feed: "https://blog.liip.fun/rss.xml"
+
+  - title: "白糖的记事本"
+    url: "https://blog.sugarmgp.icu/"
+    feed: "https://blog.sugarmgp.icu/rss2.xml"
+
+  - title: "浅浅子の小屋"
+    url: "https://blog.qianqianzyk.top/"
+    feed: "https://blog.qianqianzyk.top/rss.xml"
+
+  - title: "MangoGovo's blog"
+    url: "https://blog.mggo.xyz/"
+    feed: "https://blog.mggo.xyz/rss2.xml"
+
+  - title: "望舒的尘歌壶"
+    url: "https://blog.phlin.cn/"
+    feed: "https://blog.phlin.cn/rss2.xml"
+
+  - title: "青鸟のBlog"
+    url: "https://blog.bluebird.icu/"
+    feed: "https://blog.bluebird.icu/posts/index.xml"
+
+  - title: "惜寞的无人小间"
+    url: "https://www.lonesome.cn/"
+    feed: "https://www.lonesome.cn/atom.xml"
+
+  - title: "树下集熵"
+    url: "https://www.entropy-tree.top/"
+    feed: "https://www.entropy-tree.top/atom.xml"
