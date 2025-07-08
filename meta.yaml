@@ -74,3 +74,7 @@ blogs:
   - title: "树下集熵"
     url: "https://www.entropy-tree.top/"
     feed: "https://www.entropy-tree.top/atom.xml"
+
+  - title: "Mai's blog"
+    url: "https://blog.imjh.xyz"
+    feed: "https://blog.imjh.xyz/atom.xml"
