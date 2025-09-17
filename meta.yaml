@@ -36,8 +36,8 @@ blogs:
     feed: "https://ljw030710.github.io/atom.xml"
 
   - title: "消失在彩霞里的博客"
-    url: "https://blog.aiyin.club/"
-    feed: "https://blog.aiyin.club/index.xml"
+    url: "https://blog.tidechoir.cn/"
+    feed: "https://blog.tidechoir.cn/index.xml"
     
   - title: "T-ON-Y的博客"
     url: "https://tonywu.top/"
