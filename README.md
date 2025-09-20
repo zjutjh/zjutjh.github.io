@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# 精弘网络技术团队博客 rss 看板
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+采用 Nuxt 构建，每日自动抓取 rss 订阅源，生成静态看板
 
-## Setup
-
-Make sure to install dependencies:
+## 数据生成
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+pnpm run build:data
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## 构建
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm run generate
 ```
 
-## Production
+## 准入条件
 
-Build the application for production:
+1. 精弘网络技术团队成员
+1. 博客文章数量 >= 5
+1. 技术文章占比 >= 50%
 
-```bash
-# npm
-npm run build
+## 加入方式
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+修改 [meta.yaml](/meta.yaml), 提交 PR 即可
