@@ -1,7 +1,7 @@
 import yaml from "js-yaml";
 import * as fs from "fs";
 import { XMLParser } from "fast-xml-parser";
-import { addMonths, format } from "date-fns";
+import { subMonths, format } from "date-fns";
 
 const articlesToRemain = parseInt(process.env.ARTICLES_TO_REMAIN ?? "50");
 const monthLimit = parseInt(process.env.MONTH_LIMIT ?? "4");
@@ -25,6 +25,32 @@ async function getBlog(url) {
     }
   }
   return null;
+}
+
+/**
+ * 解析 RSS/Atom 源中的日期字符串
+ * @param {string | undefined} dateString 原始日期字符串
+ * @returns {Date | null} 解析成功返回 Date 对象，失败返回 null
+ */
+function parseDate(dateString) {
+  if (!dateString) {
+    return null;
+  }
+
+  // 清洗字符串：解码常见的 HTML 实体，例如 '&#43;' -> '+'
+  const cleanedString = dateString.replace(/&#(\d+);/g, (match, dec) =>
+    String.fromCharCode(dec)
+  );
+
+  const date = new Date(cleanedString);
+
+  // 检查是否为无效日期 (Invalid Date)
+  if (isNaN(date.getTime())) {
+    console.warn(`[!] 日期解析失败，已跳过该文章: "${dateString}"`);
+    return null;
+  }
+
+  return date;
 }
 
 const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
@@ -62,8 +88,7 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
     if (type === "rss") {
       data.push(...json.rss.channel.item.map((item) => ({
         title: item.title,
-        date: new Date(item.pubDate),
-        // date: format(new Date(item.pubDate), "yyyyMMdd"),
+        date: parseDate(item.pubDate),
         url: item.link,
         siteName: title,
         siteUrl: url
@@ -71,8 +96,7 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
     } else {
       data.push(...json.feed.entry.map((item) => ({
         title: item.title,
-        date: new Date(item.published),
-        // date: format(new Date(item.published), "yyyyMMdd"),
+        date: parseDate(item.published),
         url: item.link["_href"],
         siteName: title,
         siteUrl: url
@@ -80,20 +104,17 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
     }
   }
 
-  data.sort((a, b) => new Date(b.date) - new Date(a.date));
-  const monthData = addMonths(new Date(), monthLimit);
+  data.sort((a, b) => b.date - a.date);
+  const monthData = subMonths(new Date(), monthLimit);
   const dataToWrite = ((() => {
-    const dataToWrite = data.filter((item) => item.date >= monthData);
-    if (dataToWrite.length < articlesToRemain) {
+    const temp = data.filter((item) => item.date !== null && item.date >= monthData);
+    if (temp.length < articlesToRemain) {
       return data.toSpliced(articlesToRemain);
     }
-    return dataToWrite;
+    return temp;
   })()).map((item) => ({
-    title: item.title,
-    date: format(item.date, "yyyyMMdd"),
-    url: item.url,
-    siteName: item.siteName,
-    siteUrl: item.siteUrl
+    ...item,
+    date: format(item.date, "yyyyMMdd")
   }));
   opml.sort((a, b) => {
     if (a.alive === b.alive) {
