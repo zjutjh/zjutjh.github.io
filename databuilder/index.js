@@ -95,6 +95,12 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
     siteName: item.siteName,
     siteUrl: item.siteUrl
   }));
+  opml.sort((a, b) => {
+    if (a.alive === b.alive) {
+      return Math.random() - 0.5;
+    }
+    return a.alive ? -1 : 1;
+  });
   fs.writeFileSync("./assets/data.json", JSON.stringify(dataToWrite, null, 4));
   fs.writeFileSync("./assets/opml.json", JSON.stringify(opml, null, 4));
 })();
