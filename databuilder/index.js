@@ -10,16 +10,21 @@ const monthLimit = parseInt(process.env.MONTH_LIMIT ?? "4");
  * @param {string} url 博客 URL
  * */
 async function getBlog(url) {
-  try {
+  for (let i = 0; i < 3; i += 1) {
+    try {
 
-    const res = await fetch(url);
-    const text = await res.text();
-    return text;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  } catch (_) {
-    console.error("获取失败", title, url);
-    return null;
+      const res = await fetch(url);
+      const text = await res.text();
+      return text;
+    } catch {
+      if (i < 2) {
+        console.warn("获取失败", `（${i + 1}/3）`, url);
+      } else {
+        console.error("获取失败", `（${i + 1}/3）`, url);
+      }
+    }
   }
+  return null;
 }
 
 const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
