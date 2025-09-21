@@ -85,23 +85,19 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
       link: url,
       alive: true
     });
-    if (type === "rss") {
-      data.push(...json.rss.channel.item.map((item) => ({
+    let entries = type === "rss" ? json.rss.channel.item : json.feed.entry;
+    if (!Array.isArray(entries)) {
+      entries = [entries];
+    }
+    data.push(
+      ...entries.map((item) => ({
         title: item.title,
-        date: parseDate(item.pubDate),
+        date: parseDate(item.pubDate || item.published),
         url: item.link,
         siteName: title,
         siteUrl: url
-      })));
-    } else {
-      data.push(...json.feed.entry.map((item) => ({
-        title: item.title,
-        date: parseDate(item.published),
-        url: item.link["_href"],
-        siteName: title,
-        siteUrl: url
-      })));
-    }
+      }))
+    );
   }
 
   data.sort((a, b) => b.date - a.date);
