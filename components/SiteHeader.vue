@@ -13,7 +13,7 @@
       target="_blank"
       class="ml-auto mr-4 my-auto flex"
     >
-      <img class="h-8 lg:h-12 mr-1" src="/img/github.svg" alt="github-icon" />
+      <img class="h-8 lg:h-12 mr-1" src="/img/github.svg" alt="github-icon">
       <div class="text-xl text-white font-medium my-auto">
         Github
       </div>

@@ -16,7 +16,7 @@ import boardInfo from "../assets/opml.json";
           {{ board.title }}
         </div>
         <div class="flex items-center">
-          <img class="w-4 mr-1" src="/img/link.svg" alt="link-icon" />
+          <img class="w-4 mr-1" src="/img/link.svg" alt="link-icon">
           <span class="text-sm text-gray-500">{{ board.link }}</span>
         </div>
       </a>
