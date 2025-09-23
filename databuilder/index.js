@@ -93,7 +93,7 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
       ...entries.map((item) => ({
         title: item.title,
         date: parseDate(item.pubDate || item.published),
-        url: item.link,
+        url: item.link?._href || item.link,
         siteName: title,
         siteUrl: url
       }))
