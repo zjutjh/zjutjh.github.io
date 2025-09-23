@@ -1,22 +1,66 @@
 <template>
-  <div id="header" class="flex" style="background: #D10000;">
+  <div id="header" class="header">
     <img
-      class="h-12 lg:h-16 m-4"
+      class="header-logo"
       src="/img/logo.webp"
       alt="精弘网络"
     >
-    <div class="hidden">
+    <div class="header-title">
       浙江工业大学精弘网络技术团队
     </div>
     <a
       href="https://github.com/zjutjh"
       target="_blank"
-      class="ml-auto mr-4 my-auto flex"
+      class="header-github"
     >
-      <img class="h-8 lg:h-12 mr-1" src="/img/github.svg" alt="github-icon">
-      <div class="text-xl text-white font-medium my-auto">
+      <img class="github-icon" src="/img/github.svg" alt="github-icon">
+      <div class="github-text">
         Github
       </div>
     </a>
   </div>
 </template>
+
+<style lang="less" scoped>
+.header {
+  display: flex;
+  background: #D10000;
+}
+
+.header-logo {
+  height: 3rem;
+  margin: 1rem;
+
+  .desktop-up({
+    height: 4rem;
+  });
+}
+
+.header-title {
+  display: none;
+}
+
+.header-github {
+  margin-left: auto;
+  margin-right: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.github-icon {
+  height: 2rem;
+  margin-right: 0.25rem;
+
+  .desktop-up({
+    height: 3rem;
+  });
+}
+
+.github-text {
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 500;
+  margin: auto;
+}
+</style>

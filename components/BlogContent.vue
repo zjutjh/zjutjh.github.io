@@ -21,27 +21,27 @@ const titleNeedToShow = (articleData: Array<any>, index: number) => {
 </script>
 
 <template>
-  <div class="mx-8 my-4">
+  <div class="blog-content">
     <div v-for="(article, index) in articleData" :key="article.url">
       <h2
         v-if="titleNeedToShow(articleData, index)"
-        class="text-xl text-gray-800 pt-2"
+        class="month-title"
       >
         {{ toMonthTitle(article.date) }}
       </h2>
-      <div class="article-item flex my-2 text-base">
-        <div class="text-gray-400 mr-3 my-auto">
+      <div class="article-item">
+        <div class="article-date">
           {{ toArticleDate(article.date) }}
         </div>
         <a
-          class="text-gray-900 md:truncate flex-1"
+          class="article-title"
           :href="article.url"
           target="_blank"
         >
           {{ article.title }}
         </a>
         <a
-          class="ml-auto text-gray-500 hidden md:block"
+          class="article-site"
           :href="article.siteUrl"
           target="_blank"
         >
@@ -51,3 +51,48 @@ const titleNeedToShow = (articleData: Array<any>, index: number) => {
     </div>
   </div>
 </template>
+
+<style lang="less" scoped>
+.blog-content {
+  margin: 1rem 2rem;
+}
+
+.month-title {
+  font-size: 1.25rem;
+  color: #1f2937;
+  padding-top: 0.5rem;
+}
+
+.article-item {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.article-date {
+  color: #9ca3af;
+  margin-right: 0.75rem;
+}
+
+.article-title {
+  color: #111827;
+  flex: 1 1 0%;
+
+  .tablet-up({
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  });
+}
+
+.article-site {
+  margin-left: auto;
+  color: #6b7280;
+  display: none;
+
+  .tablet-up({
+    display: block;
+  });
+}
+</style>

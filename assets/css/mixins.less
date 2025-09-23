@@ -1,0 +1,16 @@
+/* Breakpoints */
+@breakpoint-tablet: 768px;
+@breakpoint-desktop: 1024px;
+
+/* Media Query Mixins */
+.tablet-up(@rules) {
+  @media (min-width: @breakpoint-tablet) {
+    @rules();
+  }
+}
+
+.desktop-up(@rules) {
+  @media (min-width: @breakpoint-desktop) {
+    @rules();
+  }
+}
