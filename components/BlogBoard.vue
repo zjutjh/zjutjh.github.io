@@ -25,6 +25,12 @@ import boardInfo from "../assets/opml.json";
 </template>
 
 <style lang="less" scoped>
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .blog-board {
   background-color: white;
   border-radius: 0.5rem;

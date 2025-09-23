@@ -58,7 +58,7 @@
 }
 
 .github-text {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   color: white;
   font-weight: 500;
   margin: auto;

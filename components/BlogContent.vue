@@ -53,6 +53,12 @@ const titleNeedToShow = (articleData: Array<any>, index: number) => {
 </template>
 
 <style lang="less" scoped>
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .blog-content {
   margin: 1rem 2rem;
 }
