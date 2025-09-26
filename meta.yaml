@@ -78,3 +78,7 @@ blogs:
   - title: "Mai's blog"
     url: "https://blog.imjh.xyz"
     feed: "https://blog.imjh.xyz/atom.xml"
+
+  - title: "折乙 - blog"
+    url: "https://zheyi.in"
+    feed: "https://zheyi.in/rss.xml"
