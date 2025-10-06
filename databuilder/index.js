@@ -69,35 +69,39 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
   })));
 
   for (const blog of blogs) {
-    const { title, url, text } = blog;
-    if (!text) {
+    try {
+      const { title, url, text } = blog;
+      if (!text) {
+        opml.push({
+          title,
+          link: url,
+          alive: false
+        });
+        continue;
+      }
+      const json = parser.parse(text);
+      const type = json.rss ? "rss" : "feed";
       opml.push({
         title,
         link: url,
-        alive: false
+        alive: true
       });
-      continue;
+      let entries = type === "rss" ? json.rss.channel.item : json.feed.entry;
+      if (!Array.isArray(entries)) {
+        entries = [entries];
+      }
+      data.push(
+        ...entries.map((item) => ({
+          title: item.title,
+          date: parseDate(item.pubDate || item.published),
+          url: item.link?._href || item.link,
+          siteName: title,
+          siteUrl: url
+        }))
+      );
+    } catch (e) {
+      console.error(`解析失败: ${blog.title}`, e);
     }
-    const json = parser.parse(text);
-    const type = json.rss ? "rss" : "feed";
-    opml.push({
-      title,
-      link: url,
-      alive: true
-    });
-    let entries = type === "rss" ? json.rss.channel.item : json.feed.entry;
-    if (!Array.isArray(entries)) {
-      entries = [entries];
-    }
-    data.push(
-      ...entries.map((item) => ({
-        title: item.title,
-        date: parseDate(item.pubDate || item.published),
-        url: item.link?._href || item.link,
-        siteName: title,
-        siteUrl: url
-      }))
-    );
   }
 
   data.sort((a, b) => b.date - a.date);
