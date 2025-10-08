@@ -4,8 +4,8 @@ blogs:
     feed: "https://zhul.in/rss.xml"
   
   - title: "J10c's site"
-    url: "https://site.j10ccc.xyz/"
-    feed: "https://site.j10ccc.xyz/zh-cn/blog/rss.xml"
+    url: "https://site.j10c.cc/"
+    feed: "https://site.j10c.cc/zh-cn/blog/rss.xml"
   
   - title: "派大星的石头屋"
     url: "https://blog.cnpatrickstar.com/"
