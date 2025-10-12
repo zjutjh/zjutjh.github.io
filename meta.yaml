@@ -1,16 +1,16 @@
-blogs: 
+blogs:
   - title: "竹林里有冰的博客"
     url: "https://zhul.in"
     feed: "https://zhul.in/rss.xml"
-  
+
   - title: "J10c's site"
     url: "https://site.j10c.cc/"
     feed: "https://site.j10c.cc/zh-cn/blog/rss.xml"
-  
+
   - title: "派大星的石头屋"
     url: "https://blog.cnpatrickstar.com/"
     feed: "https://blog.cnpatrickstar.com/index.xml"
-  
+
   - title: "Node Sans Blog"
     url: "https://blog.node189.top/"
     feed: "https://blog.node189.top/rss.xml"
@@ -38,7 +38,7 @@ blogs:
   - title: "消失在彩霞里的博客"
     url: "https://blog.tidechoir.cn/"
     feed: "https://blog.tidechoir.cn/index.xml"
-    
+
   - title: "T-ON-Y的博客"
     url: "https://tonywu.top/"
     feed: "https://tonywu.top/atom.xml"
@@ -52,8 +52,8 @@ blogs:
     feed: "https://blog.qianqianzyk.top/rss.xml"
 
   - title: "MangoGovo's blog"
-    url: "https://blog.mggo.xyz/"
-    feed: "https://blog.mggo.xyz/rss2.xml"
+    url: "https://blog.mggovo.cn/"
+    feed: "https://blog.mggovo.cn/rss2.xml"
 
   - title: "望舒的尘歌壶"
     url: "https://blog.phlin.cn/"
