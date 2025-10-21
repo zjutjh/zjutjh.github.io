@@ -78,3 +78,7 @@ blogs:
   - title: "折乙 - blog"
     url: "https://zheyi.in"
     feed: "https://zheyi.in/rss.xml"
+
+  - title: "boom - blog"
+    url: "https://boom1999.github.io/"
+    feed: "https://boom1999.github.io/atom.xml"
