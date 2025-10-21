@@ -80,17 +80,10 @@ function reset() {
               <span class="value">{{ result.details.feedInfo.title }}</span>
             </div>
             <div class="detail-item">
-              <span class="label">链接:</span>
-              <a
-                :href="result.details.feedInfo.link"
-                target="_blank"
-                class="value link"
-              >
-                {{ result.details.feedInfo.link }}
-              </a>
+              <span class="label">描述:</span>
+              <span class="value">{{ result.details.feedInfo.description }}</span>
             </div>
           </div>
-
           <div
             v-if="result.details.warnings.length > 0"
             class="detail-section warnings-section"
