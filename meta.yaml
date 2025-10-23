@@ -82,3 +82,7 @@ blogs:
   - title: "boom - blog"
     url: "https://boom1999.github.io/"
     feed: "https://boom1999.github.io/atom.xml"
+
+  - title: "Songjie's Blog"
+    url: "https://scotianova.top"
+    feed: "https://scotianova.top/rss.xml"
