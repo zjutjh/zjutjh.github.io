@@ -82,3 +82,7 @@ blogs:
   - title: "boom - blog"
     url: "https://boom1999.github.io/"
     feed: "https://boom1999.github.io/atom.xml"
+
+  - title: "Fridayssheep - blog"
+    url: "https://blog.fridayssheep.top/"
+    feed: "https://blog.fridayssheep.top/rss.xml"
