@@ -71,10 +71,6 @@ blogs:
     url: "https://www.entropy-tree.top/"
     feed: "https://www.entropy-tree.top/atom.xml"
 
-  - title: "Mai's blog"
-    url: "https://blog.imjh.xyz"
-    feed: "https://blog.imjh.xyz/atom.xml"
-
   - title: "折乙 - blog"
     url: "https://zheyi.in"
     feed: "https://zheyi.in/rss.xml"
