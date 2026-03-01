@@ -83,6 +83,6 @@ blogs:
     url: "https://blog.fridayssheep.top/"
     feed: "https://blog.fridayssheep.top/rss.xml"
 
-    - title: "Fufffh - blog"
+  - title: "Fufffh - blog"
     url: "https://fufffh.github.io/"
     feed: "https://fufffh.github.io/rss2.xml"
