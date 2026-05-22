@@ -124,4 +124,34 @@ const { blogs: blogMetas } = yaml.load(fs.readFileSync("./meta.yaml", "utf8"));
   });
   fs.writeFileSync("./assets/data.json", JSON.stringify(dataToWrite, null, 4));
   fs.writeFileSync("./assets/opml.json", JSON.stringify(opml, null, 4));
+
+  // Generate RSS feed
+  const generateRSSFeed = () => {
+    const rssItems = dataToWrite.map(item => {
+      const pubDate = new Date(item.date.replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3"));
+      return `    <item>
+      <title><![CDATA[${item.title}]]></title>
+      <link>${item.url}</link>
+      <description><![CDATA[来自 ${item.siteName}]]></description>
+      <pubDate>${pubDate.toUTCString()}</pubDate>
+      <source url="${item.siteUrl}">${item.siteName}</source>
+    </item>`;
+    }).join("\n");
+
+    const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>精弘网络技术团队博客</title>
+    <link>https://zjutjh.github.io</link>
+    <description>精弘网络技术团队成员博客聚合</description>
+    <language>zh-cn</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <generator>zjutjh.github.io RSS Generator</generator>
+${rssItems}
+  </channel>
+</rss>`;
+    return rss;
+  };
+
+  fs.writeFileSync("./public/rss.xml", generateRSSFeed());
 })();

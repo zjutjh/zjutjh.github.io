@@ -9,6 +9,14 @@
       浙江工业大学精弘网络技术团队
     </div>
     <a
+      href="/rss.xml"
+      target="_blank"
+      class="header-rss"
+      title="订阅 RSS"
+    >
+      <img class="rss-icon" src="/img/rss.svg" alt="rss-icon">
+    </a>
+    <a
       href="https://github.com/zjutjh"
       target="_blank"
       class="header-github"
@@ -46,6 +54,22 @@
   margin-top: auto;
   margin-bottom: auto;
   display: flex;
+}
+
+.header-rss {
+  margin-right: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+}
+
+.rss-icon {
+  height: 2rem;
+
+  .desktop-up({
+    height: 3rem;
+  });
 }
 
 .github-icon {
