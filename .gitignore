@@ -24,3 +24,7 @@ logs
 !.env.example
 
 venv/
+
+public/rss.xml
+assets/data.json
+assets/opml.json
