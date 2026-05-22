@@ -15,6 +15,10 @@ async function getBlog(url) {
 
       const res = await fetch(url);
       const text = await res.text();
+      if (/<head>\s*<title>Just a moment\.\.\.<\/title>/i.test(text)) {
+        console.warn("抓取受阻 [Cloudflare]", url);
+        return null;
+      }
       return text;
     } catch {
       if (i < 2) {
