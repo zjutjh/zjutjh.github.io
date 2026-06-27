@@ -23,10 +23,6 @@ blogs:
     url: "https://www.f1nley.xyz/"
     feed: "https://www.f1nley.xyz/blog/rss.xml"
 
-  - title: "Mulberror's Blog"
-    url: "https://blog.mulbry.top/"
-    feed: "https://blog.mulbry.top/index.xml"
-
   - title: "Tiancy's Blog"
     url: "https://blog.tiancy.cn/"
     feed: "https://blog.tiancy.cn/rss/feed.xml"
