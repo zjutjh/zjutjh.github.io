@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@nuxtjs/sitemap": "^7.6.0",
-    "fast-xml-parser": "^4.5.4",
-    "nuxt": "^3.21.1",
+    "fast-xml-parser": "^4.5.6",
+    "nuxt": "^3.21.8",
     "vue": "latest"
   },
   "packageManager": "pnpm@8.6.8+sha1.8cdbb177109be4e1c498126fa24a9dc811e80eea",
   "devDependencies": {
     "@zjutjh/eslint-config": "^0.2.0",
-    "eslint": "^9.39.3",
-    "less": "^4.5.1"
+    "eslint": "^9.39.4",
+    "less": "^4.6.7"
   }
 }
