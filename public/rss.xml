@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>精弘网络技术团队博客</title>
+    <link>https://zjutjh.github.io</link>
+    <description>精弘网络技术团队成员博客聚合</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 28 Jun 2026 02:38:05 GMT</lastBuildDate>
+    <generator>zjutjh.github.io RSS Generator</generator>
+    <item>
+      <title><![CDATA[塑造人生观的几句话]]></title>
+      <link>https://www.f1nley.xyz/blog/words-that-shape-my-outlook-of-life</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[Nuxt SSG 博客的尾斜杠到底怎么加？]]></title>
+      <link>https://zhul.in/2026/05/28/nuxt-ssg-trailing-slash-hydration-trap/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[记录一次 Nginx 替换攻击事件]]></title>
+      <link>https://www.f1nley.xyz/blog/log-an-nginx-replacement-attack</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[Typeless 输入法初体验：AI 赋能下的语音输入新范式]]></title>
+      <link>https://www.f1nley.xyz/blog/typeless-first-experience</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[小米 Xiaomi Book Pro 14 （Ultra X7） Linux 兼容性实测]]></title>
+      <link>https://zhul.in/2026/04/30/xiaomi-book-pro-14-2026-on-linux/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[AI 时代对“生产力”的重新思考]]></title>
+      <link>https://www.f1nley.xyz/blog/rethinking-productivity-in-ai-age</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[珍視生命中真正的奢侈品——理想的日常]]></title>
+      <link>https://www.f1nley.xyz/blog/ideal-daily-life</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[如何让某科学的代理工具的 TUN 和 tailscale 共存]]></title>
+      <link>https://blog.node189.top/posts/mihomo-with-tailscale</link>
+      <description><![CDATA[来自 Node Sans Blog]]></description>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
+      <source url="https://blog.node189.top/">Node Sans Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[远航星：后日谈]]></title>
+      <link>https://blog.i1nfo.com/posts/re-voyaging-star/</link>
+      <description><![CDATA[来自 i1nfo]]></description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+      <source url="https://blog.i1nfo.com/">i1nfo</source>
+    </item>
+    <item>
+      <title><![CDATA[数学建模经验总结]]></title>
+      <link>http://fufffh.github.io/2026/02/26/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E6%80%BB%E7%BB%93/</link>
+      <description><![CDATA[来自 Fufffh - blog]]></description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <source url="https://fufffh.github.io/">Fufffh - blog</source>
+    </item>
+    <item>
+      <title><![CDATA[AI狼人杀]]></title>
+      <link>http://fufffh.github.io/2026/02/26/AI%E7%8B%BC%E4%BA%BA%E6%9D%80/</link>
+      <description><![CDATA[来自 Fufffh - blog]]></description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+      <source url="https://fufffh.github.io/">Fufffh - blog</source>
+    </item>
+    <item>
+      <title><![CDATA[国内（大陆）版小米 FCM 熄屏断连：Rootless 环境下的尝试与可能的解决方案]]></title>
+      <link>https://zhul.in/2026/02/20/xiaomi-china-version-fcm-push-debug/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[远航星随笔]]></title>
+      <link>https://blog.i1nfo.com/posts/voyaging-star/</link>
+      <description><![CDATA[来自 i1nfo]]></description>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <source url="https://blog.i1nfo.com/">i1nfo</source>
+    </item>
+    <item>
+      <title><![CDATA[Go 1.14 ~ Go 1.26 版本演进复盘]]></title>
+      <link>https://blog.phlin.cn/2026/02/12/go-versions-260212/</link>
+      <description><![CDATA[来自 望舒的尘歌壶]]></description>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+      <source url="https://blog.phlin.cn/">望舒的尘歌壶</source>
+    </item>
+    <item>
+      <title><![CDATA[从2.3到3.6绩点, 我做了什么 一个计算机学生大二上期末考后的一些思考]]></title>
+      <link>https://zheyi.in/posts/%E6%A0%A1%E5%9B%AD%E6%9D%82%E8%B0%88/semester2term1finalexam/</link>
+      <description><![CDATA[来自 折乙 - blog]]></description>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+      <source url="https://zheyi.in">折乙 - blog</source>
+    </item>
+    <item>
+      <title><![CDATA[我没法访问 dl.google.com —— 记一次 TUN 下的网络 debug]]></title>
+      <link>https://zhul.in/2026/01/31/mihomo-tun-fail-to-visit-dl-google-com/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[我对秒杀防超卖的四层方案推演（单体 / MySQL / Redis 预扣 / MQ 异步）]]></title>
+      <link>https://blog.phlin.cn/2026/01/20/seckill-oversell-prevention/</link>
+      <description><![CDATA[来自 望舒的尘歌壶]]></description>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
+      <source url="https://blog.phlin.cn/">望舒的尘歌壶</source>
+    </item>
+    <item>
+      <title><![CDATA[Vercel 的缓存控制，你注意过吗？]]></title>
+      <link>https://zhul.in/2025/12/23/vercel-cache-control/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[谐云后端面经]]></title>
+      <link>https://blog.phlin.cn/2025/12/10/xieyun-interview-1/</link>
+      <description><![CDATA[来自 望舒的尘歌壶]]></description>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.phlin.cn/">望舒的尘歌壶</source>
+    </item>
+    <item>
+      <title><![CDATA[小记 —— Caddy 在 Layer 4 上的流量代理实践]]></title>
+      <link>https://zhul.in/2025/12/10/caddy-traffic-proxy-on-layer-4/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[AGENTS.md: RIPER-5 与 SSOT 工作流规范]]></title>
+      <link>https://blog.tiancy.cn/article/Technology/2025/11/AI-CLI-Agent-RIPER5-SSOT-Protocol</link>
+      <description><![CDATA[来自 Tiancy's Blog]]></description>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tiancy.cn/">Tiancy's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[你的域名后缀拖慢你的网站速度了嘛？——再谈 DNS 冷启动]]></title>
+      <link>https://zhul.in/2025/11/25/did-your-tld-slowing-down-your-site/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[Agent CLI: 配置 Codex 与高效 MCP 全指南]]></title>
+      <link>https://blog.tiancy.cn/article/Technology/2025/11/Codex-CLI-MCP-Setup-Guide</link>
+      <description><![CDATA[来自 Tiancy's Blog]]></description>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tiancy.cn/">Tiancy's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[Prompt 合集: 高效提示词模板与实用技巧]]></title>
+      <link>https://blog.tiancy.cn/article/Knowledge/2025/11/Prompt-Collection-And-Templates</link>
+      <description><![CDATA[来自 Tiancy's Blog]]></description>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tiancy.cn/">Tiancy's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[DNS 冷启动：小型站点的“西西弗斯之石”]]></title>
+      <link>https://zhul.in/2025/11/11/dns-cold-start-dilemma/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[SSR篇1-从认识渲染方式到简单的SSR问题]]></title>
+      <link>https://zheyi.in/posts/%E5%89%8D%E7%AB%AF/ssr1/</link>
+      <description><![CDATA[来自 折乙 - blog]]></description>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://zheyi.in">折乙 - blog</source>
+    </item>
+    <item>
+      <title><![CDATA[HTTP/2 Server Push 已事实性“死亡”，我很怀念它]]></title>
+      <link>https://zhul.in/2025/11/05/http-2-server-push-is-practically-obsolete/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[办理国外虚拟银行卡与 GPT 会员教程]]></title>
+      <link>https://blog.tiancy.cn/article/Technology/2025/11/virtual-card-gpt-membership-tutorial</link>
+      <description><![CDATA[来自 Tiancy's Blog]]></description>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tiancy.cn/">Tiancy's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[2024-2025个人小结]]></title>
+      <link>https://blog.phlin.cn/2025/10/30/2024-2025/</link>
+      <description><![CDATA[来自 望舒的尘歌壶]]></description>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.phlin.cn/">望舒的尘歌壶</source>
+    </item>
+    <item>
+      <title><![CDATA[Rust memory leak debugging on macOS]]></title>
+      <link>https://blog.i1nfo.com/posts/rust-mem-leak/</link>
+      <description><![CDATA[来自 i1nfo]]></description>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.i1nfo.com/">i1nfo</source>
+    </item>
+    <item>
+      <title><![CDATA[Nuxt Content v3 中数组字段的筛选困境与性能优化]]></title>
+      <link>https://zhul.in/2025/10/20/nuxt-content-v3-z-array-query-challenge/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[异构数据库迁移]]></title>
+      <link>https://www.entropy-tree.top/2025/10/19/heterogeneous-database-migration/</link>
+      <description><![CDATA[来自 树下集熵]]></description>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 GMT</pubDate>
+      <source url="https://www.entropy-tree.top/">树下集熵</source>
+    </item>
+    <item>
+      <title><![CDATA[后 OCSP 时代，浏览器如何应对证书吊销新挑战]]></title>
+      <link>https://zhul.in/2025/10/16/how-s-mozilla-crlite-going-now/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[大模型显存常见问题 QA 汇总]]></title>
+      <link>https://blog.tiancy.cn/article/Knowledge/2025/10/large-model-vram-common-issues-faq</link>
+      <description><![CDATA[来自 Tiancy's Blog]]></description>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tiancy.cn/">Tiancy's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[Introduction]]></title>
+      <link>https://blog.tiancy.cn/article/Myself/2025/09/Introduction</link>
+      <description><![CDATA[来自 Tiancy's Blog]]></description>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tiancy.cn/">Tiancy's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[一次水合问题的修复经验 (于SSR篇1写完后大改了后半段)]]></title>
+      <link>https://zheyi.in/posts/%E5%89%8D%E7%AB%AF/yibu/</link>
+      <description><![CDATA[来自 折乙 - blog]]></description>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+      <source url="https://zheyi.in">折乙 - blog</source>
+    </item>
+    <item>
+      <title><![CDATA[初试 Github Action Self-hosted Runner，想说爱你不容易]]></title>
+      <link>https://zhul.in/2025/09/05/first-try-of-github-action-self-hosted-runner/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[DNS 解析延迟毁了我的图床优化]]></title>
+      <link>https://zhul.in/2025/08/11/dns-resolve-time-destroyed-my-optimization-for-pic-cdn/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[Bun Plugin 怎么搞]]></title>
+      <link>https://www.f1nley.xyz/blog/how-to-use-and-create-bun-plugin</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[Vue Markdown 渲染优化实战(下)：告别 DOM 操作，拥抱 AST 与函数式渲染]]></title>
+      <link>https://zhul.in/2025/07/13/vue-markdown-render-improvement-2/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[Vue Markdown 渲染优化实战(上)：从暴力刷新、分块更新到 Morphdom 的华丽变身]]></title>
+      <link>https://zhul.in/2025/07/12/vue-markdown-render-improvement-1/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[Unity/.NET Modding 101]]></title>
+      <link>https://blog.i1nfo.com/posts/dotnet-modding-101/</link>
+      <description><![CDATA[来自 i1nfo]]></description>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.i1nfo.com/">i1nfo</source>
+    </item>
+    <item>
+      <title><![CDATA[在 Linux 上使用 mdadm 创建软 RAID]]></title>
+      <link>https://www.f1nley.xyz/blog/use-mdadm-to-create-soft-raid-on-linux</link>
+      <description><![CDATA[来自 Finley's Blog]]></description>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+      <source url="https://www.f1nley.xyz/">Finley's Blog</source>
+    </item>
+    <item>
+      <title><![CDATA[node-sass 迁移至 dart-sass 踩坑实录]]></title>
+      <link>https://zhul.in/2025/07/05/node-sass-migration-to-dart-sass/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[前端中的量子力学——一打开 F12 就消失的 Bug]]></title>
+      <link>https://zhul.in/2025/06/08/front-end-bug-gone-when-open-devtool/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[浙工大转专业(计算机) 经验分享 | 指南(?]]></title>
+      <link>https://zheyi.in/posts/%E6%A0%A1%E5%9B%AD%E6%9D%82%E8%B0%88/zhuanzhuanye/</link>
+      <description><![CDATA[来自 折乙 - blog]]></description>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
+      <source url="https://zheyi.in">折乙 - blog</source>
+    </item>
+    <item>
+      <title><![CDATA[2025 年，如何为 web 页面上展示的视频选择合适的压缩算法？]]></title>
+      <link>https://zhul.in/2025/06/02/choosing-the-right-video-compression-format-for-web-in-2025/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[el-image 和 el-table 怎么就打架了？Stacking Context 是什么？]]></title>
+      <link>https://zhul.in/2025/05/31/el-image-and-el-table-why-the-fight-and-what-is-a-stacking-context/</link>
+      <description><![CDATA[来自 竹林里有冰的博客]]></description>
+      <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
+      <source url="https://zhul.in">竹林里有冰的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[记一次AI拍立得视频生成实践]]></title>
+      <link>https://blog.tidechoir.club/posts/keling/</link>
+      <description><![CDATA[来自 消失在彩霞里的博客]]></description>
+      <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tidechoir.cn/">消失在彩霞里的博客</source>
+    </item>
+    <item>
+      <title><![CDATA[一些实习的收获与总结]]></title>
+      <link>https://blog.tidechoir.club/posts/internship/</link>
+      <description><![CDATA[来自 消失在彩霞里的博客]]></description>
+      <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
+      <source url="https://blog.tidechoir.cn/">消失在彩霞里的博客</source>
+    </item>
+  </channel>
+</rss>
