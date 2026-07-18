@@ -1,12 +1,112 @@
 [
     {
-        "title": "J10c's site",
-        "link": "https://site.j10ccc.xyz/",
+        "title": "竹林里有冰的博客",
+        "link": "https://zhul.in",
         "alive": true
     },
     {
-        "title": "竹林里有冰的博客",
-        "link": "https://zhul.in",
+        "title": "Finley's Blog",
+        "link": "https://www.f1nley.xyz/",
+        "alive": true
+    },
+    {
+        "title": "Tiancy's Blog",
+        "link": "https://blog.tiancy.cn/",
+        "alive": true
+    },
+    {
+        "title": "i1nfo",
+        "link": "https://blog.i1nfo.com/",
+        "alive": true
+    },
+    {
+        "title": "望舒的尘歌壶",
+        "link": "https://blog.phlin.cn/",
+        "alive": true
+    },
+    {
+        "title": "折乙 - blog",
+        "link": "https://zheyi.in",
+        "alive": true
+    },
+    {
+        "title": "消失在彩霞里的博客",
+        "link": "https://blog.tidechoir.cn/",
+        "alive": true
+    },
+    {
+        "title": "Fufffh - blog",
+        "link": "https://fufffh.github.io/",
+        "alive": true
+    },
+    {
+        "title": "Node Sans Blog",
+        "link": "https://blog.node189.top/",
+        "alive": true
+    },
+    {
+        "title": "树下集熵",
+        "link": "https://www.entropy-tree.top/",
+        "alive": true
+    },
+    {
+        "title": "派大星的石头屋",
+        "link": "https://blog.cnpatrickstar.com/",
+        "alive": true
+    },
+    {
+        "title": "Hygge's Blog",
+        "link": "https://ljw030710.github.io/",
+        "alive": true
+    },
+    {
+        "title": "T-ON-Y的博客",
+        "link": "https://tonywu.top/",
+        "alive": true
+    },
+    {
+        "title": "白糖的记事本",
+        "link": "https://blog.sugarmgp.cn/",
+        "alive": true
+    },
+    {
+        "title": "MangoGovo's blog",
+        "link": "https://blog.mggovo.cn/",
+        "alive": true
+    },
+    {
+        "title": "青鸟のBlog",
+        "link": "https://blog.bluebird.icu/",
+        "alive": true
+    },
+    {
+        "title": "惜寞的无人小间",
+        "link": "https://www.lonesome.cn/",
+        "alive": true
+    },
+    {
+        "title": "boom - blog",
+        "link": "https://boom1999.github.io/",
+        "alive": true
+    },
+    {
+        "title": "Fridayssheep - blog",
+        "link": "https://blog.fridayssheep.top/",
+        "alive": true
+    },
+    {
+        "title": "J10c's site",
+        "link": "https://site.j10c.cc/",
+        "alive": false
+    },
+    {
+        "title": "Mulberror's Blog",
+        "link": "https://blog.mulbry.top/",
+        "alive": false
+    },
+    {
+        "title": "浅浅子の小屋",
+        "link": "https://blog.qianqianzyk.top/",
         "alive": false
     }
 ]

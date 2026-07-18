@@ -7,7 +7,18 @@ useSeoMeta({
   title: title,
   description: description,
   ogTitle: title,
-  ogDescription: description,
+  ogDescription: description
+});
+
+useHead({
+  link: [
+    {
+      rel: "alternate",
+      type: "application/rss+xml",
+      href: "/rss.xml",
+      title: "精弘网络技术团队博客聚合"
+    }
+  ]
 });
 </script>
 
