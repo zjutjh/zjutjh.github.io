@@ -18,17 +18,6 @@
         Github
       </div>
     </a>
-    <a
-      href="/rss.xml"
-      target="_blank"
-      class="header-github"
-      title="订阅 RSS"
-    >
-      <img class="github-icon" src="/img/rss.svg" alt="rss-icon">
-      <div class="github-text">
-        RSS
-      </div>
-    </a>
   </div>
 </template>
 
@@ -57,10 +46,6 @@
   margin-top: auto;
   margin-bottom: auto;
   display: flex;
-}
-
-.header-github + .header-github {
-  margin-left: 0;
 }
 
 .github-icon {
