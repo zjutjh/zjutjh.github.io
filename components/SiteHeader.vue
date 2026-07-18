@@ -46,6 +46,7 @@
   margin-top: auto;
   margin-bottom: auto;
   display: flex;
+  align-items: center;
 }
 
 .github-icon {
@@ -61,6 +62,6 @@
   font-size: 1.75rem;
   color: white;
   font-weight: 500;
-  margin: auto;
+  line-height: 1;
 }
 </style>
